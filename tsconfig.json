@@ -1,0 +1,23 @@
+{
+    "include": [
+        "./src/**/*",
+        "./src/setupTests.ts"
+    ],
+    "compilerOptions": {
+        "strict": true,
+        "esModuleInterop": true,
+        "lib": [
+            "dom",
+            "es2015"
+        ],
+        "module": "esnext",
+        "moduleResolution": "node",
+        "jsx": "react-jsx"
+    },
+    "typeRoots": [
+        "node_modules/@types"
+    ],
+    "types": [
+        "jest"
+    ]
+}
